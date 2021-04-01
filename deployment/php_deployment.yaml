@@ -22,8 +22,8 @@ spec:
           path: /code
       containers:
       - name: php
-        image: hirenkavad/laravel-k8
-        #image: kiyange26773/laravel:v1.0
+        #image: hirenkavad/laravel-k8
+        image: kiyange26773/laravel:v3
         volumeMounts:
         - name: dir
           mountPath: /code
